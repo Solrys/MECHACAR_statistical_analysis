@@ -3,7 +3,14 @@ Analysis Using R
 
 ## Overview
 
-AUTORSThe purpose of this analysis is to offer insights on the MechaCar's production to help the manufacturing team. In order to conduct this analysis, 
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on me to review the production data for insights that may help the manufacturing team.
+
+I will be doing the following:
+* Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+* Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+* Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+* Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
 
 ## Method
 *Datsets containing information related to the miles per gallon and the suspension coils of the MechaCar. 
@@ -43,13 +50,27 @@ The Two tables can be seen below:
 #### Questions
 
 #### Answers
-### Test
+### T Test/ Suspension Coils
+In this section, I wanted to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. In order to do this, I used R's t.test() function to find four different p-values. The question that I wanted to answer by doing this was:
 
-### Final Analysys
+#### Question: 
+Do any of the four groups have a statistically different mean from the population mena of 1,500 PSI?
+
+#### Answer:
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true, I tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the four groups and the population mean.
+Here is a breakdown of each of the four tests:
+
+
+![test1](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/total_pop_test.png)
+![test 2](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/1_pop_test.png)
+![test 3](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/2_pop_test.png)
+![test 4](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/3_pop_test.png)
+
+### Final Analysis
 ### Mechacar VS Competion
 
-For the final section on this study, I will be comparing how the MechaCar performs against the competition.
-The following questions and answers will help provide structure for the comparison and better clarity. 
+For the final section on this study, I will comprise a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
+The following questions and answers will help provide structure for the comparison and better clarity.
 
 ### Questions: 
 What metric or metrics will be tested?
