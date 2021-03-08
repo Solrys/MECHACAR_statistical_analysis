@@ -40,4 +40,8 @@ The Two tables can be seen below:
 #### Lot Summary
 ![table2](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/lot_sum_sus_coils.png)
 
+#### Questions
+
+#### Answers
+
 
