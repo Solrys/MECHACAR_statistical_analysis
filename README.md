@@ -29,6 +29,8 @@ The main indicator of whether the linear model predicts the mpg of the MechaCar 
 Here are the summary results from the linear regression.
 
 ### Miles Per Gallon Linear Regression
+![linear](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/mpg_linear_regression.png)
+
 
 
 
