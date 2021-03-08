@@ -75,7 +75,7 @@ By using a significance level of 95%, meaning that 95% of the time this tests re
 ### Mechacar VS Competion
 
 For the final section on this study, I will comprise a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
-The following questions and answers will help provide structure for the comparison and better clarity.
+The following questions and answers will help provide structure for the comparison.
 
 ## Questions: 
 What metric or metrics will be tested?
@@ -85,6 +85,6 @@ What data is needed to run the statistical test?
 
 ## Answers:
 The metrics I want to test are city and highway fuel efficiencies.
-Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. THe Alternative Hypothesis is that they are not all the same.
+Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. The Alternative Hypothesis is that they are not all the same.
 I would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also I would use the ggplot2 library to show the potential spread between different cars using a boxplot.
 I would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, I would have a top of 500 data points collected for each fuel efficiency type.
