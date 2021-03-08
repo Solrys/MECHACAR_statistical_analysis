@@ -48,23 +48,25 @@ The Two tables can be seen below:
 ![table2](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/lot_sum_sus_coils.png)
 
 #### Questions
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-#### Answers
+#### Answer
+Looking at the total summary, the current variance is approximately 76.23 PSI meaning that is does meet the design specification. When looking at the lots individuals, the first two lotas meet the design specification at a varaince of approximately 1.14 PSI and 10.13 PSI respectfully, but the third lot does not. This is becasue the third lot's variance is approximately 220.01 PSI, exceeding the design specification by more than double the alotted amount. Therefore, the manufacturing team should work with the cars in lots 1 and 2 compared to those in lot 3.
+
 ### T Test/ Suspension Coils
-In this section, I wanted to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. In order to do this, I used R's t.test() function to find four different p-values. The question that I wanted to answer by doing this was:
-
-#### Question: 
-Do any of the four groups have a statistically different mean from the population mena of 1,500 PSI?
-
-#### Answer:
-By using a significance level of 95%, meaning that 95% of the time this tests results would be true, I tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the four groups and the population mean.
+In this section, I wanted to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. In order to do this, I used R's t.test() function to find four different p-values. 
 Here is a breakdown of each of the four tests:
-
 
 ![test1](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/total_pop_test.png)
 ![test 2](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/1_pop_test.png)
 ![test 3](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/2_pop_test.png)
 ![test 4](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/3_pop_test.png)
+#### Question: 
+Do any of the four groups have a statistically different mean from the population mena of 1,500 PSI?
+
+#### Answer:
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true, I tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the four groups and the population mean.
+
 
 ### Final Analysis
 ### Mechacar VS Competion
