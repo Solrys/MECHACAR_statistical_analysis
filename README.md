@@ -13,10 +13,13 @@ I will be doing the following:
 
 
 ## Method
-*Datsets containing information related to the miles per gallon and the suspension coils of the MechaCar. 
-*R 
-*R studio
-*Dyplr Library
+* Datsets containing information related to the miles per gallon and the suspension coils of the MechaCar. 
+
+* R 
+
+* R studio
+
+* Dyplr Library
 
 ## Linear Regression to Predict MPG
 
