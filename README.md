@@ -43,5 +43,22 @@ The Two tables can be seen below:
 #### Questions
 
 #### Answers
+### Test
 
+### Final Analysys
+### Mechacar VS Competion
 
+For the final section on this study, I will be comparing how the MechaCar performs against the competition.
+The following questions and answers will help provide structure for the comparison and better clarity. 
+
+### Questions: 
+What metric or metrics will be tested?
+What is the null hypothesis or alternative hypothesis?
+What statistical tests could be used to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
+### Answers
+The metrics I want to test are city and highway fuel efficiencies.
+Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. THe Alternative Hypothesis is that they are not all the same.
+I would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also I would use the ggplot2 library to show the potential spread between different cars using a boxplot.
+I would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, I would have a top of 500 data points collected for each fuel efficiency type.
