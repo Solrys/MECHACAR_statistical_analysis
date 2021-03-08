@@ -36,7 +36,7 @@ The suspension coils dataset is comprised of 150 different vehicles ID, 3 differ
 The Two tables can be seen below:
 
 #### Total Summary
-![table1]
+![table1](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/total_sum_sus_coils.png)
 #### Lot Summary
 ![table2](https://github.com/Solrys/MECHACAR_statistical_analysis/blob/main/images/lot_sum_sus_coils.png)
 
